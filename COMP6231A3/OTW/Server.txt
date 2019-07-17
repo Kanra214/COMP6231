@@ -1,0 +1,216 @@
+Date:Tue Jul 16 22:49:11 EDT 2019;Request:StartServer;
+==========================
+Date:Tue Jul 16 22:53:55 EDT 2019;Response:New client is created, id = OTWM9000.;Request:CreateClient;Approved:True;ClientId:OTWM9000;
+==========================
+Date:Tue Jul 16 22:53:55 EDT 2019;Response:Succeed, the event is added;EventType:Conference;Capacity:1;Request:AddEvent;Approved:True;ClientId:OTWM9000;EventId:OTWA190619;
+==========================
+Date:Tue Jul 16 22:53:55 EDT 2019;Response:Succeed, the event is added;EventType:Seminar;Capacity:1;Request:AddEvent;Approved:True;ClientId:OTWM9000;EventId:OTWA250619;
+==========================
+Date:Tue Jul 16 22:53:55 EDT 2019;EventType:Conference;Request:GetEventList;ClientId:OTWM9000;TargetServer:TOR;
+==========================
+Date:Tue Jul 16 22:53:55 EDT 2019;Response:TORE080619, 2
+;EventType:Conference;Request:GetEventList;Approved:True;ClientId:OTWM9000;TargetServer:TOR;
+==========================
+Date:Tue Jul 16 22:53:55 EDT 2019;EventType:Conference;Request:GetEventList;ClientId:OTWM9000;TargetServer:MTL;
+==========================
+Date:Tue Jul 16 22:53:55 EDT 2019;Response:MTLA090619, 2
+;EventType:Conference;Request:GetEventList;Approved:True;ClientId:OTWM9000;TargetServer:MTL;
+==========================
+Date:Tue Jul 16 22:53:55 EDT 2019;EventType:Seminar;Request:GetEventList;ClientId:OTWM9000;TargetServer:TOR;
+==========================
+Date:Tue Jul 16 22:53:55 EDT 2019;Response:TORE110619, 1
+;EventType:Seminar;Request:GetEventList;Approved:True;ClientId:OTWM9000;TargetServer:TOR;
+==========================
+Date:Tue Jul 16 22:53:55 EDT 2019;EventType:Seminar;Request:GetEventList;ClientId:OTWM9000;TargetServer:MTL;
+==========================
+Date:Tue Jul 16 22:53:55 EDT 2019;EventType:Seminar;Request:GetEventList;Approved:True;ClientId:OTWM9000;TargetServer:MTL;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;EventType:TradeShow;Request:GetEventList;ClientId:OTWM9000;TargetServer:TOR;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;EventType:TradeShow;Request:GetEventList;Approved:True;ClientId:OTWM9000;TargetServer:TOR;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;EventType:TradeShow;Request:GetEventList;ClientId:OTWM9000;TargetServer:MTL;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:MTLA080619, 1
+;EventType:TradeShow;Request:GetEventList;Approved:True;ClientId:OTWM9000;TargetServer:MTL;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:New client is created, id = OTWC1234.;Request:CreateClient;Approved:True;ClientId:OTWC1234;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;EventType:Conference;Request:ModifyEventList;ClientId:OTWC1234;EventId:TORE080619;TargetServer:TOR;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:200;EventType:Conference;Request:ModifyEventList;Approved:True;ClientId:OTWC1234;EventId:TORE080619;TargetServer:TOR;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;EventType:Seminar;Request:ModifyEventList;ClientId:OTWC1234;EventId:TORE110619;TargetServer:TOR;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:200;EventType:Seminar;Request:ModifyEventList;Approved:True;ClientId:OTWC1234;EventId:TORE110619;TargetServer:TOR;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;EventType:Conference;Request:ModifyEventList;ClientId:OTWC1234;EventId:MTLA090619;TargetServer:MTL;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:200;EventType:Conference;Request:ModifyEventList;Approved:True;ClientId:OTWC1234;EventId:MTLA090619;TargetServer:MTL;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:Succeed, client OTWC1234 is registered for the event;EventType:Conference;Request:BookEvent;Approved:True;ClientId:OTWC1234;EventId:OTWA190619;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:2019-Jun-11, TORE110619, Seminar
+2019-Jun-19, OTWA190619, Conference
+2019-Jun-08, TORE080619, Conference
+2019-Jun-09, MTLA090619, Conference
+;Request:GetBookingSchedule;Approved:True;ClientId:OTWC1234;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:The client OTWC1234 have been registered three or more events on other branches;OldEventType:Conference;EventType:TradeShow;OldEventId:OTWA190619;Request:SwapEvent;Approved:False;ClientId:OTWC1234;EventId:MTLA080619;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;OldEventType:Conference;EventType:Conference;OldEventId:TORE080619;Request:ModifyEventList;ClientId:OTWC1234;EventId:TORE080619;TargetServer:TOR;OriginalRequest:CancelEvent;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:200;EventType:Conference;OldEventId:TORE080619;Request:ModifyEventList;Approved:True;ClientId:OTWC1234;EventId:TORE080619;TargetServer:TOR;OriginalRequest:CancelEvent;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:Swapping is Succeed;OldEventType:Conference;EventType:Seminar;OldEventId:TORE080619;Request:ModifyEventList;Approved:True;ClientId:OTWC1234;EventId:OTWA250619;TargetServer:TOR;OriginalRequest:CancelEvent;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:2019-Jun-11, TORE110619, Seminar
+2019-Jun-25, OTWA250619, Seminar
+2019-Jun-19, OTWA190619, Conference
+2019-Jun-09, MTLA090619, Conference
+;Request:GetBookingSchedule;Approved:True;ClientId:OTWC1234;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;SourceServer:TOR;EventType:Seminar;OldEventId:TORE080619;Request:ModifyEventList;ClientId:TORC1234;EventId:OTWA250619;ManagerId:TORM3456;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:402;SourceServer:TOR;EventType:Seminar;OldEventId:TORE080619;Request:ModifyEventList;Approved:False;ClientId:TORC1234;EventId:OTWA250619;ManagerId:TORM3456;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;SourceServer:MTL;EventType:Conference;Request:GetEventList;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:OTWA190619, 0
+;SourceServer:MTL;EventType:Conference;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;SourceServer:MTL;EventType:Seminar;Request:GetEventList;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:OTWA250619, 0
+;SourceServer:MTL;EventType:Seminar;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;SourceServer:MTL;EventType:TradeShow;Request:GetEventList;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;SourceServer:MTL;EventType:TradeShow;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;SourceServer:TOR;EventType:Conference;OldEventId:MTLA080619;Request:ModifyEventList;ClientId:TORC1234;EventId:OTWA190619;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:402;SourceServer:TOR;EventType:Conference;OldEventId:MTLA080619;Request:ModifyEventList;Approved:False;ClientId:TORC1234;EventId:OTWA190619;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;OldEventType:Conference;EventType:TradeShow;OldEventId:OTWA190619;Request:ModifyEventList;ClientId:OTWC1234;EventId:MTLA080619;TargetServer:MTL;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:402;EventType:TradeShow;OldEventId:OTWA190619;Request:ModifyEventList;Approved:False;ClientId:OTWC1234;EventId:MTLA080619;TargetServer:MTL;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:There is no available seat for the new event;OldEventType:Conference;EventType:TradeShow;OldEventId:OTWA190619;Request:ModifyEventList;Approved:False;ClientId:OTWC1234;EventId:MTLA080619;TargetServer:MTL;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;OldEventType:Conference;EventType:TradeShow;OldEventId:OTWA190619;Request:ModifyEventList;ClientId:OTWC1234;EventId:MTLA080619;TargetServer:MTL;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:200;EventType:TradeShow;OldEventId:OTWA190619;Request:ModifyEventList;Approved:True;ClientId:OTWC1234;EventId:MTLA080619;TargetServer:MTL;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:Swapping is Succeed;OldEventType:Conference;EventType:TradeShow;OldEventId:OTWA190619;Request:ModifyEventList;Approved:True;ClientId:OTWC1234;EventId:MTLA080619;TargetServer:MTL;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;SourceServer:MTL;EventType:Conference;Request:GetEventList;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:OTWA190619, 1
+;SourceServer:MTL;EventType:Conference;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;SourceServer:MTL;EventType:Seminar;Request:GetEventList;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:OTWA250619, 0
+;SourceServer:MTL;EventType:Seminar;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;SourceServer:MTL;EventType:TradeShow;Request:GetEventList;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;SourceServer:MTL;EventType:TradeShow;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:Client( id = OTWM9000) has been used, please try another id.;Request:CreateClient;Approved:False;ClientId:OTWM9000;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:The event has been added already;EventType:Conference;Capacity:1;Request:AddEvent;Approved:False;ClientId:OTWM9000;EventId:OTWA190619;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:The event has been added already;EventType:Seminar;Capacity:1;Request:AddEvent;Approved:False;ClientId:OTWM9000;EventId:OTWA250619;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;EventType:Conference;Request:GetEventList;ClientId:OTWM9000;TargetServer:TOR;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:TORE080619, 2
+;EventType:Conference;Request:GetEventList;Approved:True;ClientId:OTWM9000;TargetServer:TOR;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;EventType:Conference;Request:GetEventList;ClientId:OTWM9000;TargetServer:MTL;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:MTLA090619, 0
+;EventType:Conference;Request:GetEventList;Approved:True;ClientId:OTWM9000;TargetServer:MTL;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;EventType:Seminar;Request:GetEventList;ClientId:OTWM9000;TargetServer:TOR;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:TORE110619, 0
+;EventType:Seminar;Request:GetEventList;Approved:True;ClientId:OTWM9000;TargetServer:TOR;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;EventType:Seminar;Request:GetEventList;ClientId:OTWM9000;TargetServer:MTL;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;EventType:Seminar;Request:GetEventList;Approved:True;ClientId:OTWM9000;TargetServer:MTL;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;EventType:TradeShow;Request:GetEventList;ClientId:OTWM9000;TargetServer:TOR;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;EventType:TradeShow;Request:GetEventList;Approved:True;ClientId:OTWM9000;TargetServer:TOR;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;EventType:TradeShow;Request:GetEventList;ClientId:OTWM9000;TargetServer:MTL;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:MTLA080619, 0
+;EventType:TradeShow;Request:GetEventList;Approved:True;ClientId:OTWM9000;TargetServer:MTL;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:Client( id = OTWC1234) has been used, please try another id.;Request:CreateClient;Approved:False;ClientId:OTWC1234;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:Succeed, client OTWC1234 is registered for the event;EventType:Conference;Request:BookEvent;Approved:True;ClientId:OTWC1234;EventId:OTWA190619;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:2019-Jun-11, TORE110619, Seminar
+2019-Jun-25, OTWA250619, Seminar
+2019-Jun-08, MTLA080619, TradeShow
+2019-Jun-19, OTWA190619, Conference
+2019-Jun-09, MTLA090619, Conference
+;Request:GetBookingSchedule;Approved:True;ClientId:OTWC1234;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:The client OTWC1234 have been registered for the new event already;OldEventType:Conference;EventType:TradeShow;OldEventId:OTWA190619;Request:SwapEvent;Approved:False;ClientId:OTWC1234;EventId:MTLA080619;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:The client OTWC1234 have been registered for the new event already;OldEventType:Conference;EventType:Seminar;OldEventId:TORE080619;Request:SwapEvent;Approved:False;ClientId:OTWC1234;EventId:OTWA250619;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:2019-Jun-11, TORE110619, Seminar
+2019-Jun-25, OTWA250619, Seminar
+2019-Jun-08, MTLA080619, TradeShow
+2019-Jun-19, OTWA190619, Conference
+2019-Jun-09, MTLA090619, Conference
+;Request:GetBookingSchedule;Approved:True;ClientId:OTWC1234;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;SourceServer:TOR;EventType:Seminar;OldEventId:TORE080619;Request:ModifyEventList;ClientId:TORC1234;EventId:OTWA250619;ManagerId:TORM3456;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;Response:402;SourceServer:TOR;EventType:Seminar;OldEventId:TORE080619;Request:ModifyEventList;Approved:False;ClientId:TORC1234;EventId:OTWA250619;ManagerId:TORM3456;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;SourceServer:MTL;EventType:Conference;Request:GetEventList;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;Response:OTWA190619, 0
+;SourceServer:MTL;EventType:Conference;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;SourceServer:MTL;EventType:Seminar;Request:GetEventList;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;Response:OTWA250619, 0
+;SourceServer:MTL;EventType:Seminar;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;SourceServer:MTL;EventType:TradeShow;Request:GetEventList;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;SourceServer:MTL;EventType:TradeShow;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;Response:The client OTWC1234 have been registered for the new event already;OldEventType:Conference;EventType:TradeShow;OldEventId:OTWA190619;Request:SwapEvent;Approved:False;ClientId:OTWC1234;EventId:MTLA080619;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;SourceServer:TOR;EventType:Conference;OldEventId:MTLA080619;Request:ModifyEventList;ClientId:TORC1234;EventId:OTWA190619;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;Response:402;SourceServer:TOR;EventType:Conference;OldEventId:MTLA080619;Request:ModifyEventList;Approved:False;ClientId:TORC1234;EventId:OTWA190619;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;Response:The client OTWC1234 have been registered for the new event already;OldEventType:Conference;EventType:TradeShow;OldEventId:OTWA190619;Request:SwapEvent;Approved:False;ClientId:OTWC1234;EventId:MTLA080619;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;SourceServer:MTL;EventType:Conference;Request:GetEventList;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;Response:OTWA190619, 0
+;SourceServer:MTL;EventType:Conference;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;SourceServer:MTL;EventType:Seminar;Request:GetEventList;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;Response:OTWA250619, 0
+;SourceServer:MTL;EventType:Seminar;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;SourceServer:MTL;EventType:TradeShow;Request:GetEventList;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;SourceServer:MTL;EventType:TradeShow;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================

@@ -1,0 +1,26 @@
+Date:Tue Jul 16 22:53:55 EDT 2019;Response:Succeed, the event is added;EventType:Conference;Capacity:2;Request:AddEvent;Approved:True;ClientId:TORM3456;EventId:TORE080619;
+==========================
+Date:Tue Jul 16 22:53:55 EDT 2019;Response:Succeed, the event is added;EventType:Seminar;Capacity:1;Request:AddEvent;Approved:True;ClientId:TORM3456;EventId:TORE110619;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:Succeed, client TORC1234 is registered for the event;EventType:TradeShow;Request:ModifyEventList;Approved:True;ClientId:TORC1234;EventId:MTLA080619;TargetServer:MTL;ManagerId:TORM3456;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:There is no available seat for the new event;OldEventType:Conference;EventType:Seminar;OldEventId:TORE080619;Request:ModifyEventList;Approved:False;ClientId:TORC1234;EventId:OTWA250619;TargetServer:OTW;ManagerId:TORM3456;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:Cannot find the new event;OldEventType:Conference;EventType:Seminar;OldEventId:MTLA090619;Request:SwapEvent;Approved:False;ClientId:TORC1234;EventId:TORE080619;ManagerId:TORM3456;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:2019-Jun-08, MTLA080619, TradeShow
+;Request:GetBookingSchedule;Approved:True;ClientId:TORC1234;ManagerId:TORM3456;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:The event has been added already;EventType:Conference;Capacity:2;Request:AddEvent;Approved:False;ClientId:TORM3456;EventId:TORE080619;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:The event has been added already;EventType:Seminar;Capacity:1;Request:AddEvent;Approved:False;ClientId:TORM3456;EventId:TORE110619;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;Response:There is no available seat for this event;EventType:TradeShow;Request:ModifyEventList;Approved:False;ClientId:TORC1234;EventId:MTLA080619;TargetServer:MTL;ManagerId:TORM3456;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;Response:There is no available seat for the new event;OldEventType:Conference;EventType:Seminar;OldEventId:TORE080619;Request:ModifyEventList;Approved:False;ClientId:TORC1234;EventId:OTWA250619;TargetServer:OTW;ManagerId:TORM3456;OriginalRequest:BookEvent;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;Response:Cannot find the new event;OldEventType:Conference;EventType:Seminar;OldEventId:MTLA090619;Request:SwapEvent;Approved:False;ClientId:TORC1234;EventId:TORE080619;ManagerId:TORM3456;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;Response:2019-Jun-09, MTLA090619, Conference
+;Request:GetBookingSchedule;Approved:True;ClientId:TORC1234;ManagerId:TORM3456;
+==========================

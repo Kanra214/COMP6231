@@ -1,0 +1,32 @@
+Date:Tue Jul 16 22:53:55 EDT 2019;Response:Succeed, the event is added;EventType:Conference;Capacity:1;Request:AddEvent;Approved:True;ClientId:OTWM9000;EventId:OTWA190619;
+==========================
+Date:Tue Jul 16 22:53:55 EDT 2019;Response:Succeed, the event is added;EventType:Seminar;Capacity:1;Request:AddEvent;Approved:True;ClientId:OTWM9000;EventId:OTWA250619;
+==========================
+Date:Tue Jul 16 22:53:55 EDT 2019;Response:OTWA190619, 1
+TORE080619, 2
+MTLA090619, 2
+;EventType:Conference;Request:GetEventList;Approved:True;ClientId:OTWM9000;
+==========================
+Date:Tue Jul 16 22:53:55 EDT 2019;Response:OTWA250619, 1
+TORE110619, 1
+;EventType:Seminar;Request:GetEventList;Approved:True;ClientId:OTWM9000;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:MTLA080619, 1
+;EventType:TradeShow;Request:GetEventList;Approved:True;ClientId:OTWM9000;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:The event has been added already;EventType:Conference;Capacity:1;Request:AddEvent;Approved:False;ClientId:OTWM9000;EventId:OTWA190619;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:The event has been added already;EventType:Seminar;Capacity:1;Request:AddEvent;Approved:False;ClientId:OTWM9000;EventId:OTWA250619;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:OTWA190619, 1
+TORE080619, 2
+MTLA090619, 0
+;EventType:Conference;Request:GetEventList;Approved:True;ClientId:OTWM9000;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:OTWA250619, 0
+TORE110619, 0
+;EventType:Seminar;Request:GetEventList;Approved:True;ClientId:OTWM9000;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:MTLA080619, 0
+;EventType:TradeShow;Request:GetEventList;Approved:True;ClientId:OTWM9000;
+==========================

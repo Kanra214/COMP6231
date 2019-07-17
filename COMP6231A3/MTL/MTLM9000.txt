@@ -1,0 +1,56 @@
+Date:Tue Jul 16 22:53:55 EDT 2019;Response:Succeed, the event is added;EventType:Conference;Capacity:2;Request:AddEvent;Approved:True;ClientId:MTLM9000;EventId:MTLA090619;
+==========================
+Date:Tue Jul 16 22:53:55 EDT 2019;Response:Succeed, the event is added;EventType:TradeShow;Capacity:1;Request:AddEvent;Approved:True;ClientId:MTLM9000;EventId:MTLA080619;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:MTLA090619, 1
+TORE080619, 2
+OTWA190619, 0
+;EventType:Conference;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:TORE110619, 0
+OTWA250619, 0
+;EventType:Seminar;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:MTLA080619, 0
+;EventType:TradeShow;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:MTLA090619, 0
+TORE080619, 2
+OTWA190619, 1
+;EventType:Conference;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:TORE110619, 0
+OTWA250619, 0
+;EventType:Seminar;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:53:56 EDT 2019;Response:MTLA080619, 0
+;EventType:TradeShow;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:The event has been added already;EventType:Conference;Capacity:2;Request:AddEvent;Approved:False;ClientId:MTLM9000;EventId:MTLA090619;
+==========================
+Date:Tue Jul 16 22:54:25 EDT 2019;Response:The event has been added already;EventType:TradeShow;Capacity:1;Request:AddEvent;Approved:False;ClientId:MTLM9000;EventId:MTLA080619;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;Response:MTLA090619, 0
+TORE080619, 2
+OTWA190619, 0
+;EventType:Conference;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;Response:TORE110619, 0
+OTWA250619, 0
+;EventType:Seminar;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;Response:MTLA080619, 0
+;EventType:TradeShow;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;Response:MTLA090619, 0
+TORE080619, 2
+OTWA190619, 0
+;EventType:Conference;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;Response:TORE110619, 0
+OTWA250619, 0
+;EventType:Seminar;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
+Date:Tue Jul 16 22:54:26 EDT 2019;Response:MTLA080619, 0
+;EventType:TradeShow;Request:GetEventList;Approved:True;ClientId:MTLM9000;
+==========================
